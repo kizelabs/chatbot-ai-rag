@@ -43,7 +43,6 @@ Controls which WhatsApp conversations the bot responds to.
 
 ```json
 [
-  "6285742200009@s.whatsapp.net",
   "12025551000-987654321@g.us"
 ]
 ```
