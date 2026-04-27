@@ -1,4 +1,3 @@
-cb/README.md
 ```
 # Chatbot
 
