@@ -1,0 +1,48 @@
+[
+  {
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "messages": [
+      {
+        "role": "user",
+        "content": ""
+      }
+    ],
+    "temperature": 1,
+    "top_p": 0.95,
+    "max_tokens": 16384,
+    "reasoning_budget": 16384,
+    "chat_template_kwargs": {
+      "enable_thinking": true
+    },
+    "stream": false
+  },
+  {
+    "model": "deepseek-ai/deepseek-v3.2",
+    "messages": [
+      {
+        "role": "user",
+        "content": ""
+      }
+    ],
+    "temperature": 1,
+    "top_p": 0.95,
+    "max_tokens": 8192,
+    "chat_template_kwargs": {
+      "thinking": true
+    },
+    "stream": false
+  },
+  {
+    "model": "moonshotai/kimi-k2-thinking",
+    "messages": [
+      {
+        "role": "user",
+        "content": ""
+      }
+    ],
+    "temperature": 1,
+    "top_p": 0.9,
+    "max_tokens": 16384,
+    "stream": false
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "chatbot",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "dev:worker": "pnpm --filter @chatbot/worker dev",
+    "dev:web": "pnpm --filter @chatbot/web dev",
+    "db:generate": "pnpm --filter @chatbot/db db:generate",
+    "db:migrate": "pnpm --filter @chatbot/db db:migrate"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^2.1.5",
+    "@types/node": "^22.13.9",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4"
+  }
+}
